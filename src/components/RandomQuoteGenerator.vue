@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue';
-import quotes from './quotes.js'; // Importing the quotes array
+import quotes from './quotes.js';
 
 const currentQuote = ref({ text: '', author: '' });
 
